@@ -1,0 +1,131 @@
+/* Style for the navigation bar */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ /*font-family: sans-serif;*/
+ background-color: rgb(238, 238, 238);
+}
+ul.navbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: #007bff;  */
+  background-color: #34495e;
+  text-align: left;
+  
+}
+.Faq
+{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  
+
+}
+.fq{
+  /* background-color: #007bff;  */
+  color: black;
+  
+}
+
+a{
+   /* font-size: larger; */
+  text-decoration: none;
+  /* color: rgb(212, 135, 34); */
+  /* color: #ff7b00; */
+  color: #e67e22;
+  
+
+}
+
+ul.navbar li {
+  float: left;
+  text-align: right;
+  justify-content: right;
+}
+
+ul.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.navbar li a:hover {
+  text-decoration: underline;
+}
+
+/* Style for the header */
+header {
+  text-align: center;
+  background-color: #34495e; 
+  color: white;
+  padding: 20px;
+}
+
+#maindiv{
+  display: flex;
+}
+/* Style for product containers */
+.product {
+  border: 1px solid #e74c3c;
+  margin: 9px;
+  margin-top: 50px;
+  padding: 20px;
+  /* background-color:rgb(233, 131, 29); */
+  /* background-color: #e74c3c ; */
+
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 20%;
+  border-radius: 1.5rem;
+
+  text-align: center;
+}
+
+.product img {
+  width:50%;
+ height: 50%;
+}
+
+.price {
+  font-weight: bold;
+}
+
+button {
+  /* background-color: rgb(51, 51, 51); */
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 0.5rem;
+}
+
+button:hover {
+ background-color:#34495e;
+}
+
+main {
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+.right{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+.footer {
+  background-color: #34495e; 
+  color: #fff; 
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%; 
+  text-align: center;
+  padding: 10px 0; 
+}
