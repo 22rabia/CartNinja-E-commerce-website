@@ -41,7 +41,7 @@ input[type="Firstname"],[type="Lastname"],[type="text"], input[type="email"], in
 
 
 button {
-    background-color: #007bff;
+    background-color: #34495e;
     color: #fff;
     border: none;
     padding: 10px 20px;
@@ -59,7 +59,7 @@ button:hover {
 
 .login-link a {
     text-decoration: none;
-    color: #007bff;
+    color: #34495e;
 }
 .sucess{
     display: none;
