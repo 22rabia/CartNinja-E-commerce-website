@@ -1,8 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-   
-    display: flex;
-   
     height: 100vh; /* Set the container's height to the viewport height for a full-screen background */
     color: #fff;
     align-items: center;
@@ -15,15 +12,53 @@ body {
     display: none;
 }
 
-.container {
-    background-color:rgb(58, 27, 27,0.6);
-    
-    max-width: 400px;
-    padding: 20px;
-    
-    border-radius: 5px;
-   
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #34495e;
+    text-align: left;
+  }
+  .right{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  
+  }
+  ul.navbar li {
+    float: left;
+    text-align: right;
+    justify-content: right;
+  }
+  ul.navbar li a {
+    display: block;
+    color: white;
     text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  ul.navbar li a:hover {
+    text-decoration: underline;
+  }
+  /* Style for the header */
+  header {
+    text-align: center;
+    background-color: #34495e; 
+    color: white;
+    padding: 20px;}
+.container {
+    background-color:#fff;
+    max-width: 400px;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #34495e;
+    margin-left: 450px;
+    margin-top: 30px;
 }
 
 h2 {
@@ -76,3 +111,13 @@ button:hover {
 #confirm{
     color: red;
 }
+.footer {
+    background-color: #34495e; 
+    color: #fff; 
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; 
+    text-align: center;
+    padding: 10px 0; 
+  }
