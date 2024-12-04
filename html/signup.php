@@ -30,6 +30,16 @@ require("../php/signup.php");
     ?>
 </head>
 <body>
+<header>
+            <ul class="navbar">
+            <li><a href="homepage.php">CartNinja</a></li>
+            <div class="right">
+            <li><a href="homepage.php">Home</a></li>
+            <li><a href="cart.php">Cart</a></li>
+            <li><a href="about.php">About</a></li>
+            </div>
+          </ul>
+            </header>
     <div class="container">
         <h2>Sign Up</h2>
         <form action="" method="POST">
@@ -60,6 +70,9 @@ require("../php/signup.php");
             Already have an account? <a href="../html/signin.php">Sign In</a>
         </div>
     </div>
+    <footer class="footer bg-primary text-white text-center py-3">
+            <p>&copy; 2024 CartNinja</p>
+        </footer>
     <script src="../js/signup.js"></script>
 </body>
 </html>
