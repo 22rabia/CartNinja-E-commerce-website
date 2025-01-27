@@ -7,9 +7,7 @@ $failure=null;
 // $password = '';
 // $database = 'shoping_cart';
 // // for building connection with database
-
 require_once("DatabaseConnection.php");
-
 //singelton pattern applied on instance is created and can create now multiple connection using it 
 $databaseConnection = DatabaseConnection::getInstance();
 $connection = $databaseConnection->getConnection();
